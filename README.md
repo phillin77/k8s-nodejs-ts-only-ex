@@ -1,1 +1,1 @@
-# openshift4-nodejs-ts-only-ex
+# k8s-nodejs-ts-only-ex

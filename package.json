@@ -1,7 +1,7 @@
 {
-  "name": "openshift4-nodejs-ts-only-ex",
+  "name": "k8s-nodejs-ts-only-ex",
   "version": "0.1.0",
-  "description": "Example TypeScript Project for OpenShift 4",
+  "description": "Example TypeScript Project for Dockerize for Kubernetes",
   "main": "./dist/src/main.js",
   "scripts": {
     "start:ts": "export $(cat .env | grep -v ^# | xargs) && ts-node ./app/main.ts",
@@ -15,9 +15,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phillin77/openshift4-nodejs-ts-only-ex"
+    "url": "git+https://github.com/phillin77/k8s-nodejs-ts-only-ex"
   },
-  "homepage": "https://github.com/phillin77/openshift4-nodejs-ts-only-ex#README.md",
+  "homepage": "https://github.com/phillin77/k8s-nodejs-ts-only-ex#README.md",
   "keywords": [
     "Node",
     "TypeScript"
@@ -25,7 +25,7 @@
   "author": "ISC",
   "license": "ISC",
   "engines": {
-    "node": ">=8.10.0"
+    "node": ">=8.16.1"
   },
   "nodemonConfig": {
     "ignore": [
